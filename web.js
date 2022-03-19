@@ -108,6 +108,7 @@ fetchData()
           card.classList.add("display-none");
         }
       });
+      
 
       select.addEventListener("change", function (e) {
         if (e.target.value === "All - Episode") {
