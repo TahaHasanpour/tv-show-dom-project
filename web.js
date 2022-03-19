@@ -100,7 +100,7 @@ fetchData()
       input.addEventListener("input", function (e) {
         let searchTerm = e.target.value;
         if (
-          `S0${info.season}-${info.name}`.toUpperCase().includes(searchTerm.toUpperCase()) ||
+          `s0${info.season}-Episode ${info.number}`.toUpperCase().includes(searchTerm.toUpperCase()) ||
           info.summary.toUpperCase().replaceAll("<p>", "").replaceAll("</p>", "").includes(searchTerm.toUpperCase())
         ) {
           card.classList.remove("display-none");
